@@ -1,0 +1,25 @@
+@import 'Header.scss';
+@import 'Home.scss';
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+.h1{
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1.4;
+
+}
+.bg{
+    background-color: #fdf6f6 !important;
+    
+}
+.i{
+    font-style: italic;
+}
+body{
+    background-color: #fdf6f6;
+
+}
+

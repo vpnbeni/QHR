@@ -1,0 +1,121 @@
+.home {
+  > .section1 {
+    margin: 0rem 17rem;
+    background-color: #fdf6f6;
+
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+    > div {
+      width: 50%;
+      > .getStarted {
+        padding: 1rem 0;
+        > input {
+          border: none;
+          background-color: white;
+          margin: 0 2rem 0 0;
+          border-radius: 25px;
+          font-size: 17px;
+          padding: 8px 20px;
+        }
+        border-radius: 20%;
+        > button {
+          cursor: pointer;
+          padding: 0.4rem 2rem;
+          border-radius: 25px;
+          background-color: #ff9b44;
+          font-size: 17px;
+          font-weight: 600;
+          color: white;
+          border: none;
+        }
+        > button:hover {
+          background-color: white;
+          color: #ff9b44;
+          border: 1px solid #ff9b44;
+        }
+      }
+    }
+    .impText {
+      color: #ff9b44;
+      font-weight: 700;
+      font-size: 36px;
+      text-decoration: underline;
+    }
+    .heading {
+      font-size: 36px;
+      font-weight: 500;
+    }
+  }
+  .section2 {
+    background-color: #e8f1fe;
+    
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 17rem;
+    > .item {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      > .icon {
+        font-size: 5rem;
+        padding: 0;
+        margin: 0;
+      }
+      .star {
+        color: #2dca8c;
+      }
+      .building {
+        color: #649df9;
+      }
+      .computer {
+        color: #ff715b;
+      }
+    }
+  }
+  .section3 {
+
+    margin: auto;
+    padding: 0rem 17rem;
+    background-color: #fff;
+
+    >.part1{
+        margin: auto;
+        text-align: center;
+        padding: 5rem 0;
+    }
+    >.part2{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 0 ;
+        >.left{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            
+            width: 20vw;
+            h3{
+                font-size: 2.1rem;
+                font-weight: 500;
+                line-height: 1;
+                margin: 10px 0;
+            }
+            >.smallText{
+                color: #ff715b;
+                font-weight: 450;
+            }
+            >.grayText{
+                color: #4e4e4e;
+                font-size: 15px;
+            }
+        }
+    }
+  }
+}
+//     
