@@ -10,7 +10,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative  z-40">
       <button
         onClick={toggleMenu}
         className="text-orange-500 font-bold text-lg p-2 "
