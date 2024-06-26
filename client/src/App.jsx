@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Chat from './components/Chat';
+import Templates from './components/Templates';
 
 const App = () => {
   return <>
@@ -11,6 +12,7 @@ const App = () => {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/template" element={<Templates />} />
       </Routes>
       <Footer/>
       <Chat/>
