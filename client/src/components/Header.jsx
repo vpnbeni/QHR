@@ -19,6 +19,9 @@ const Header = () => {
         <Link to={"/about"} className="lg:px-6 px-3">
           About Us
         </Link>
+        <Link to={"/template"} className="lg:px-6 px-3">
+        Template
+        </Link>
       </div>
       <div className="btn hidden md:block">
         <button className="border-0 text-base font-semibold block  hover:bg-sky-700 bg-orange-500 text-white py-2.5 px-7 rounded-3xl">
